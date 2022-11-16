@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.2%;
+}
+
+header {
+    height: 260px;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+    padding-top: 6.5rem;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+.menu a:hover{
+    font-size: 1.7rem;
+    transition: 1s;
+}
+
+section.menu-atlas{
+    height: calc(100% - 200px);
+    position: relative;
+    border-bottom: 0.9rem solid #1e81b0;
+    background-color: #1e81b0;
+}
+
+.coluna1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 760px;
+    background-color: #1e81b0;
+}
+
+.coluna2{
+    position: absolute;
+    bottom: 0;
+    right: 88.45rem;
+    width: 80px;
+    height: 760px;
+    background-color: #1e81b0;
+}
+
+.section-background img{
+    position: relative;
+    width: 90rem;
+}
+
+.texto-para{
+    position: absolute;
+    top: 110px;
+    right: 425px;
+}
+
+.texto-para h1{
+    font-size: 30px;
+    background-color: aliceblue;
+}
+
+.texto-para button{
+    position: relative;
+    top: 250px;
+    left: 163px;
+    border: 0;
+    color: white;
+    font-size: 30px;
+    background-color: #063970;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.texto-para button:hover{
+    background: #1979a9;
+    transition: background 1s;
+}
+
+.texto-para a{
+    text-decoration: none;
+    color: white;
+}
